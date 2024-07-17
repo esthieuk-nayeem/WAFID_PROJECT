@@ -1,0 +1,555 @@
+/media/nayeem/New Volume/work/PROJECT_WAFID/BACKEND/link_api/wafid/views.py changed, reloading.
+ensuring close
+webdriver process ended
+gracefully closed browser
+Watching for file changes with StatReloader
+Request headers: {'Content-Length': '0', 'Content-Type': 'text/plain', 'Host': '127.0.0.1:8000', 'Connection': 'keep-alive', 'Sec-Ch-Ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"', 'Accept': 'application/json', 'Sec-Ch-Ua-Platform': '"Linux"', 'Sec-Ch-Ua-Mobile': '?0', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'Authorization': 'Token f3ac77a7391b4c593c3dba35f6cd68dbf49e62c1', 'X-Csrftoken': 'wEznEC99fEVghzkLblUXgBJe88M2p0wtuLGoZFwZPEJ30ht75WN8rMZaGsgVZrO6', 'Origin': 'http://127.0.0.1:8000', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://127.0.0.1:8000/api/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'en-US,en;q=0.9', 'Cookie': 'amp_6e403e=EubI5Bq7aHvLzj89rp3XDY.ZXN0aGlldWtAZ21haWwuY29t..1hf4rjei1.1hf4rng42.0.4.4; csrftoken=8hhbvdx0KaYXTSjw4L3lllq6IuE3KBsN; sessionid=uafx030b5cybz2i3ik9cidlmo0zuse4i'}
+2024-07-16 08:22:19.426278 -- Fetching data..
+getting release number from /last-known-good-versions-with-downloads.json
+downloading from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chromedriver-linux64.zip
+unzipping /tmp/tmplqty0uqy
+patching driver executable /home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver
+found block:
+b'{window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Proxy = window.Proxy;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;window.cdc_adoQpoasnfa76pfcZLmcfl_JSON = window.JSON;}'
+replacing with:
+b'{console.log("undetected chromedriver 1337!")}                                                                                                                                                                                                                                                                                                    '
+patching took us 0.03 seconds
+user-data-dir found in user argument --user-data-dir=../selenium-profile => ../selenium-profile
+checking if /home/nayeem/.pub-cache/bin/chromium-browser exists and is executable
+checking if /sbin/google-chrome-stable exists and is executable
+checking if /home/nayeem/.local/bin/chromium-browser exists and is executable
+checking if /snap/bin/chromium-browser exists and is executable
+checking if /home/nayeem/Documents/Flutter_dev/flutter/bin/chromium exists and is executable
+checking if /usr/bin/chromium exists and is executable
+checking if /usr/sbin/chromium-browser exists and is executable
+checking if /bin/google-chrome exists and is executable
+found! using /bin/google-chrome
+fixed exit_type flag
+Skipping Selenium Manager; path to chrome driver specified in Service class: /home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver
+Started executable: `/home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver` in a child process with pid: 33680 using 0 to output -3
+POST http://localhost:47605/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'binary': '/bin/google-chrome', 'args': ['--disable-blink-features=AutomationControlled', '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', '--user-data-dir=../selenium-profile', '--remote-debugging-host=127.0.0.1', '--remote-debugging-port=34091', '--lang=en-US', '--no-default-browser-check', '--no-first-run', '--no-sandbox', '--test-type', '--window-size=1920,1080', '--start-maximized', '--no-sandbox', '--log-level=0'], 'debuggerAddress': '127.0.0.1:34091'}}}}
+Starting new HTTP connection (1): localhost:47605
+http://localhost:47605 "POST /session HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"126.0.6478.126","chrome":{"chromedriverVersion":"126.0.6478.126 (d36ace6122e0a59570e258d82441395206d60e1c-refs/branch-heads/6478@{#1591})"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"127.0.0.1:34091"},"pageLoadStrategy":"normal","platformName":"","proxy":{},"setWindowRect":false,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"710924da34b0e37f6743e5bf9abd4046"}} | headers=HTTPHeaderDict({'Content-Length': '762', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/window/maximize {}
+http://localhost:47605 "POST /session/710924da34b0e37f6743e5bf9abd4046/window/maximize HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"height":1053,"width":1850,"x":70,"y":27}} | headers=HTTPHeaderDict({'Content-Length': '52', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:22:28.129231 -- WebDriver started successfully.
+POST http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/url {'url': 'https://wafid.com/appointment/r2QweZOZqPLnkb1/pay/'}
+http://localhost:47605 "POST /session/710924da34b0e37f6743e5bf9abd4046/url HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:22:32.754842 -- Navigated to Wafid Pay page
+POST http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/element {'using': 'xpath', 'value': '//*[@id="id_card_holder_name"]'}
+http://localhost:47605 "POST /session/710924da34b0e37f6743e5bf9abd4046/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.20"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/element/f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.20/value {'text': 'ESTHIEUK NAYEEM', 'value': ['E', 'S', 'T', 'H', 'I', 'E', 'U', 'K', ' ', 'N', 'A', 'Y', 'E', 'E', 'M']}
+http://localhost:47605 "POST /session/710924da34b0e37f6743e5bf9abd4046/element/f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.20/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:22:32.873196 -- Name on Card has been typed
+POST http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/element {'using': 'xpath', 'value': '//*[@id="id_card_number"]'}
+http://localhost:47605 "POST /session/710924da34b0e37f6743e5bf9abd4046/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.21"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/element/f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.21/value {'text': '4037400000207531', 'value': ['4', '0', '3', '7', '4', '0', '0', '0', '0', '0', '2', '0', '7', '5', '3', '1']}
+http://localhost:47605 "POST /session/710924da34b0e37f6743e5bf9abd4046/element/f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.21/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:22:32.983754 -- Card Number has been typed
+POST http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/element {'using': 'xpath', 'value': '//*[@id="id_expiry_date"]'}
+http://localhost:47605 "POST /session/710924da34b0e37f6743e5bf9abd4046/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.22"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/element/f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.22/value {'text': '07/26', 'value': ['0', '7', '/', '2', '6']}
+http://localhost:47605 "POST /session/710924da34b0e37f6743e5bf9abd4046/element/f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.22/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:22:33.066019 -- Expiry Date has been typed
+POST http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/element {'using': 'xpath', 'value': '//*[@id="id_card_security_code"]'}
+http://localhost:47605 "POST /session/710924da34b0e37f6743e5bf9abd4046/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.23"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/element/f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.23/value {'text': '345', 'value': ['3', '4', '5']}
+http://localhost:47605 "POST /session/710924da34b0e37f6743e5bf9abd4046/element/f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.23/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:22:33.143174 -- CVV/CVC has been typed
+POST http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/element {'using': 'xpath', 'value': '//*[@id="pay-form"]/button'}
+http://localhost:47605 "POST /session/710924da34b0e37f6743e5bf9abd4046/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.32"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/element/f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.32/click {}
+http://localhost:47605 "POST /session/710924da34b0e37f6743e5bf9abd4046/element/f.961D7E3E9F38E07ADBCEB8BCBA39FF60.d.0134B4D4DB09923387340CE5482016DB.e.32/click HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:22:35.191277 -- Pay Button has been clicked
+POST http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/execute/sync {'script': "window.open('https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox', '_blank');", 'args': []}
+http://localhost:47605 "POST /session/710924da34b0e37f6743e5bf9abd4046/execute/sync HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+GET http://localhost:47605/session/710924da34b0e37f6743e5bf9abd4046/window/handles {}
+http://localhost:47605 "GET /session/710924da34b0e37f6743e5bf9abd4046/window/handles HTTP/11" 200 0
+Remote response: status=200 | data={"value":["961D7E3E9F38E07ADBCEB8BCBA39FF60"]} | headers=HTTPHeaderDict({'Content-Length': '46', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:22:50.226445 -- An error occurred: list index out of range
+Traceback (most recent call last):
+  File "/media/nayeem/New Volume/work/PROJECT_WAFID/BACKEND/link_api/wafid/views.py", line 80, in post
+    otp = self.get_latest_otp(driver)  # Use the existing driver instance
+  File "/media/nayeem/New Volume/work/PROJECT_WAFID/BACKEND/link_api/wafid/views.py", line 105, in get_latest_otp
+    driver.switch_to.window(driver.window_handles[1])  # Switch to the new tab
+IndexError: list index out of range
+Internal Server Error: /wafid/pay/
+/media/nayeem/New Volume/work/PROJECT_WAFID/BACKEND/link_api/wafid/views.py changed, reloading.
+ensuring close
+webdriver process ended
+gracefully closed browser
+Watching for file changes with StatReloader
+Request headers: {'Content-Length': '0', 'Content-Type': 'text/plain', 'Host': '127.0.0.1:8000', 'Connection': 'keep-alive', 'Sec-Ch-Ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"', 'Accept': 'application/json', 'Sec-Ch-Ua-Platform': '"Linux"', 'Sec-Ch-Ua-Mobile': '?0', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'Authorization': 'Token f3ac77a7391b4c593c3dba35f6cd68dbf49e62c1', 'X-Csrftoken': 'wEznEC99fEVghzkLblUXgBJe88M2p0wtuLGoZFwZPEJ30ht75WN8rMZaGsgVZrO6', 'Origin': 'http://127.0.0.1:8000', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://127.0.0.1:8000/api/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'en-US,en;q=0.9', 'Cookie': 'amp_6e403e=EubI5Bq7aHvLzj89rp3XDY.ZXN0aGlldWtAZ21haWwuY29t..1hf4rjei1.1hf4rng42.0.4.4; csrftoken=8hhbvdx0KaYXTSjw4L3lllq6IuE3KBsN; sessionid=uafx030b5cybz2i3ik9cidlmo0zuse4i'}
+2024-07-16 08:26:15.664553 -- Fetching data..
+getting release number from /last-known-good-versions-with-downloads.json
+downloading from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chromedriver-linux64.zip
+unzipping /tmp/tmp1xzqbfj6
+patching driver executable /home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver
+found block:
+b'{window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Proxy = window.Proxy;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;window.cdc_adoQpoasnfa76pfcZLmcfl_JSON = window.JSON;}'
+replacing with:
+b'{console.log("undetected chromedriver 1337!")}                                                                                                                                                                                                                                                                                                    '
+patching took us 0.03 seconds
+user-data-dir found in user argument --user-data-dir=../selenium-profile => ../selenium-profile
+checking if /bin/chromium exists and is executable
+checking if /bin/google-chrome-stable exists and is executable
+found! using /bin/google-chrome-stable
+fixed exit_type flag
+Skipping Selenium Manager; path to chrome driver specified in Service class: /home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver
+Started executable: `/home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver` in a child process with pid: 34232 using 0 to output -3
+POST http://localhost:55173/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'binary': '/bin/google-chrome-stable', 'args': ['--disable-blink-features=AutomationControlled', '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', '--user-data-dir=../selenium-profile', '--remote-debugging-host=127.0.0.1', '--remote-debugging-port=42097', '--lang=en-US', '--no-default-browser-check', '--no-first-run', '--no-sandbox', '--test-type', '--window-size=1920,1080', '--start-maximized', '--no-sandbox', '--log-level=0'], 'debuggerAddress': '127.0.0.1:42097'}}}}
+Starting new HTTP connection (1): localhost:55173
+http://localhost:55173 "POST /session HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"126.0.6478.126","chrome":{"chromedriverVersion":"126.0.6478.126 (d36ace6122e0a59570e258d82441395206d60e1c-refs/branch-heads/6478@{#1591})"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"127.0.0.1:42097"},"pageLoadStrategy":"normal","platformName":"","proxy":{},"setWindowRect":false,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"747afeaf118e3f294d76c1b3d52be2c6"}} | headers=HTTPHeaderDict({'Content-Length': '762', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/window/maximize {}
+http://localhost:55173 "POST /session/747afeaf118e3f294d76c1b3d52be2c6/window/maximize HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"height":1053,"width":1850,"x":70,"y":27}} | headers=HTTPHeaderDict({'Content-Length': '52', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:26:20.601179 -- WebDriver started successfully.
+POST http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/url {'url': 'https://wafid.com/appointment/r2QweZOZqPLnkb1/pay/'}
+http://localhost:55173 "POST /session/747afeaf118e3f294d76c1b3d52be2c6/url HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:26:24.915336 -- Navigated to Wafid Pay page
+POST http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/element {'using': 'xpath', 'value': '//*[@id="id_card_holder_name"]'}
+http://localhost:55173 "POST /session/747afeaf118e3f294d76c1b3d52be2c6/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.19"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/element/f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.19/value {'text': 'ESTHIEUK NAYEEM', 'value': ['E', 'S', 'T', 'H', 'I', 'E', 'U', 'K', ' ', 'N', 'A', 'Y', 'E', 'E', 'M']}
+http://localhost:55173 "POST /session/747afeaf118e3f294d76c1b3d52be2c6/element/f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.19/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:26:25.021669 -- Name on Card has been typed
+POST http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/element {'using': 'xpath', 'value': '//*[@id="id_card_number"]'}
+http://localhost:55173 "POST /session/747afeaf118e3f294d76c1b3d52be2c6/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.20"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/element/f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.20/value {'text': '4037400000207531', 'value': ['4', '0', '3', '7', '4', '0', '0', '0', '0', '0', '2', '0', '7', '5', '3', '1']}
+http://localhost:55173 "POST /session/747afeaf118e3f294d76c1b3d52be2c6/element/f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.20/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:26:25.138464 -- Card Number has been typed
+POST http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/element {'using': 'xpath', 'value': '//*[@id="id_expiry_date"]'}
+http://localhost:55173 "POST /session/747afeaf118e3f294d76c1b3d52be2c6/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.21"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/element/f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.21/value {'text': '07/26', 'value': ['0', '7', '/', '2', '6']}
+http://localhost:55173 "POST /session/747afeaf118e3f294d76c1b3d52be2c6/element/f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.21/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:26:25.216320 -- Expiry Date has been typed
+POST http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/element {'using': 'xpath', 'value': '//*[@id="id_card_security_code"]'}
+http://localhost:55173 "POST /session/747afeaf118e3f294d76c1b3d52be2c6/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.22"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/element/f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.22/value {'text': '345', 'value': ['3', '4', '5']}
+http://localhost:55173 "POST /session/747afeaf118e3f294d76c1b3d52be2c6/element/f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.22/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:26:25.288422 -- CVV/CVC has been typed
+POST http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/element {'using': 'xpath', 'value': '//*[@id="pay-form"]/button'}
+http://localhost:55173 "POST /session/747afeaf118e3f294d76c1b3d52be2c6/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.31"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/element/f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.31/click {}
+http://localhost:55173 "POST /session/747afeaf118e3f294d76c1b3d52be2c6/element/f.A4B264E50F6AFE23000C452A91D481A6.d.AF37576F7273FBA81D3C3CAAD06D2203.e.31/click HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:26:40.037896 -- Pay Button has been clicked
+POST http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/execute/sync {'script': "window.open('https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox', '_blank');", 'args': []}
+http://localhost:55173 "POST /session/747afeaf118e3f294d76c1b3d52be2c6/execute/sync HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+GET http://localhost:55173/session/747afeaf118e3f294d76c1b3d52be2c6/window/handles {}
+http://localhost:55173 "GET /session/747afeaf118e3f294d76c1b3d52be2c6/window/handles HTTP/11" 200 0
+Remote response: status=200 | data={"value":["A4B264E50F6AFE23000C452A91D481A6"]} | headers=HTTPHeaderDict({'Content-Length': '46', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+Failed to open a new tab for Gmail.
+Request headers: {'Content-Length': '0', 'Content-Type': 'text/plain', 'Host': '127.0.0.1:8000', 'Connection': 'keep-alive', 'Sec-Ch-Ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"', 'Accept': 'application/json', 'Sec-Ch-Ua-Platform': '"Linux"', 'Sec-Ch-Ua-Mobile': '?0', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'Authorization': 'Token f3ac77a7391b4c593c3dba35f6cd68dbf49e62c1', 'X-Csrftoken': 'wEznEC99fEVghzkLblUXgBJe88M2p0wtuLGoZFwZPEJ30ht75WN8rMZaGsgVZrO6', 'Origin': 'http://127.0.0.1:8000', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://127.0.0.1:8000/api/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'en-US,en;q=0.9', 'Cookie': 'amp_6e403e=EubI5Bq7aHvLzj89rp3XDY.ZXN0aGlldWtAZ21haWwuY29t..1hf4rjei1.1hf4rng42.0.4.4; csrftoken=8hhbvdx0KaYXTSjw4L3lllq6IuE3KBsN; sessionid=uafx030b5cybz2i3ik9cidlmo0zuse4i'}
+2024-07-16 08:33:31.846823 -- Fetching data..
+getting release number from /last-known-good-versions-with-downloads.json
+downloading from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chromedriver-linux64.zip
+unzipping /tmp/tmpval5exz5
+patching driver executable /home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver
+found block:
+b'{window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Proxy = window.Proxy;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;window.cdc_adoQpoasnfa76pfcZLmcfl_JSON = window.JSON;}'
+replacing with:
+b'{console.log("undetected chromedriver 1337!")}                                                                                                                                                                                                                                                                                                    '
+patching took us 0.07 seconds
+user-data-dir found in user argument --user-data-dir=../selenium-profile => ../selenium-profile
+checking if /bin/chromium exists and is executable
+checking if /bin/google-chrome-stable exists and is executable
+found! using /bin/google-chrome-stable
+fixed exit_type flag
+Skipping Selenium Manager; path to chrome driver specified in Service class: /home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver
+Started executable: `/home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver` in a child process with pid: 35167 using 0 to output -3
+POST http://localhost:55547/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'binary': '/bin/google-chrome-stable', 'args': ['--disable-blink-features=AutomationControlled', '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', '--user-data-dir=../selenium-profile', '--remote-debugging-host=127.0.0.1', '--remote-debugging-port=48151', '--lang=en-US', '--no-default-browser-check', '--no-first-run', '--no-sandbox', '--test-type', '--window-size=1920,1080', '--start-maximized', '--no-sandbox', '--log-level=0'], 'debuggerAddress': '127.0.0.1:48151'}}}}
+Starting new HTTP connection (1): localhost:55547
+http://localhost:55547 "POST /session HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"126.0.6478.126","chrome":{"chromedriverVersion":"126.0.6478.126 (d36ace6122e0a59570e258d82441395206d60e1c-refs/branch-heads/6478@{#1591})"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"127.0.0.1:48151"},"pageLoadStrategy":"normal","platformName":"","proxy":{},"setWindowRect":false,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"bac552c9c1988ebd19aca9d7e017f6f9"}} | headers=HTTPHeaderDict({'Content-Length': '762', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/window/maximize {}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/window/maximize HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"height":1053,"width":1850,"x":70,"y":27}} | headers=HTTPHeaderDict({'Content-Length': '52', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:33:41.188075 -- WebDriver started successfully.
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/url {'url': 'https://wafid.com/appointment/r2QweZOZqPLnkb1/pay/'}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/url HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:33:45.772999 -- Navigated to Wafid Pay page
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/element {'using': 'xpath', 'value': '//*[@id="id_card_holder_name"]'}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.19"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/element/f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.19/value {'text': 'ESTHIEUK NAYEEM', 'value': ['E', 'S', 'T', 'H', 'I', 'E', 'U', 'K', ' ', 'N', 'A', 'Y', 'E', 'E', 'M']}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/element/f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.19/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:33:45.880066 -- Name on Card has been typed
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/element {'using': 'xpath', 'value': '//*[@id="id_card_number"]'}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.20"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/element/f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.20/value {'text': '4037400000207531', 'value': ['4', '0', '3', '7', '4', '0', '0', '0', '0', '0', '2', '0', '7', '5', '3', '1']}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/element/f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.20/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:33:46.011977 -- Card Number has been typed
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/element {'using': 'xpath', 'value': '//*[@id="id_expiry_date"]'}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.21"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/element/f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.21/value {'text': '07/26', 'value': ['0', '7', '/', '2', '6']}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/element/f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.21/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:33:46.091509 -- Expiry Date has been typed
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/element {'using': 'xpath', 'value': '//*[@id="id_card_security_code"]'}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.22"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/element/f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.22/value {'text': '345', 'value': ['3', '4', '5']}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/element/f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.22/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:33:46.162347 -- CVV/CVC has been typed
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/element {'using': 'xpath', 'value': '//*[@id="pay-form"]/button'}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.31"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/element/f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.31/click {}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/element/f.211DA5AAF25EB3E303BDF46B2BD65CA7.d.0B128CB4972100298376C531A7305EC2.e.31/click HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:34:00.122027 -- Pay Button has been clicked
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/execute/sync {'script': "window.open('https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox', '_blank');", 'args': []}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/execute/sync HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+GET http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/window/handles {}
+http://localhost:55547 "GET /session/bac552c9c1988ebd19aca9d7e017f6f9/window/handles HTTP/11" 200 0
+Remote response: status=200 | data={"value":["211DA5AAF25EB3E303BDF46B2BD65CA7","0F53BEDD3402A709FC9A13F81BA40992"]} | headers=HTTPHeaderDict({'Content-Length': '81', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+GET http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/window/handles {}
+http://localhost:55547 "GET /session/bac552c9c1988ebd19aca9d7e017f6f9/window/handles HTTP/11" 200 0
+Remote response: status=200 | data={"value":["211DA5AAF25EB3E303BDF46B2BD65CA7","0F53BEDD3402A709FC9A13F81BA40992"]} | headers=HTTPHeaderDict({'Content-Length': '81', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/window {'handle': '0F53BEDD3402A709FC9A13F81BA40992'}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/window HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+DELETE http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/window {}
+http://localhost:55547 "DELETE /session/bac552c9c1988ebd19aca9d7e017f6f9/window HTTP/11" 200 0
+Remote response: status=200 | data={"value":["211DA5AAF25EB3E303BDF46B2BD65CA7"]} | headers=HTTPHeaderDict({'Content-Length': '46', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+GET http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/window/handles {}
+http://localhost:55547 "GET /session/bac552c9c1988ebd19aca9d7e017f6f9/window/handles HTTP/11" 200 0
+Remote response: status=200 | data={"value":["211DA5AAF25EB3E303BDF46B2BD65CA7"]} | headers=HTTPHeaderDict({'Content-Length': '46', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:55547/session/bac552c9c1988ebd19aca9d7e017f6f9/window {'handle': '211DA5AAF25EB3E303BDF46B2BD65CA7'}
+http://localhost:55547 "POST /session/bac552c9c1988ebd19aca9d7e017f6f9/window HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+Request headers: {'Content-Length': '0', 'Content-Type': 'text/plain', 'Host': '127.0.0.1:8000', 'Connection': 'keep-alive', 'Sec-Ch-Ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"', 'Accept': 'application/json', 'Sec-Ch-Ua-Platform': '"Linux"', 'Sec-Ch-Ua-Mobile': '?0', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'Authorization': 'Token f3ac77a7391b4c593c3dba35f6cd68dbf49e62c1', 'X-Csrftoken': 'wEznEC99fEVghzkLblUXgBJe88M2p0wtuLGoZFwZPEJ30ht75WN8rMZaGsgVZrO6', 'Origin': 'http://127.0.0.1:8000', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://127.0.0.1:8000/api/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'en-US,en;q=0.9', 'Cookie': 'amp_6e403e=EubI5Bq7aHvLzj89rp3XDY.ZXN0aGlldWtAZ21haWwuY29t..1hf4rjei1.1hf4rng42.0.4.4; csrftoken=8hhbvdx0KaYXTSjw4L3lllq6IuE3KBsN; sessionid=uafx030b5cybz2i3ik9cidlmo0zuse4i'}
+2024-07-16 08:40:52.605886 -- Fetching data..
+getting release number from /last-known-good-versions-with-downloads.json
+downloading from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chromedriver-linux64.zip
+unzipping /tmp/tmpwjm2eko6
+patching driver executable /home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver
+found block:
+b'{window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Proxy = window.Proxy;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;window.cdc_adoQpoasnfa76pfcZLmcfl_JSON = window.JSON;}'
+replacing with:
+b'{console.log("undetected chromedriver 1337!")}                                                                                                                                                                                                                                                                                                    '
+patching took us 0.03 seconds
+user-data-dir found in user argument --user-data-dir=../selenium-profile => ../selenium-profile
+checking if /bin/chromium exists and is executable
+checking if /bin/google-chrome-stable exists and is executable
+found! using /bin/google-chrome-stable
+fixed exit_type flag
+Skipping Selenium Manager; path to chrome driver specified in Service class: /home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver
+Started executable: `/home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver` in a child process with pid: 36639 using 0 to output -3
+POST http://localhost:48227/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'binary': '/bin/google-chrome-stable', 'args': ['--disable-blink-features=AutomationControlled', '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', '--user-data-dir=../selenium-profile', '--remote-debugging-host=127.0.0.1', '--remote-debugging-port=51243', '--lang=en-US', '--no-default-browser-check', '--no-first-run', '--no-sandbox', '--test-type', '--window-size=1920,1080', '--start-maximized', '--no-sandbox', '--log-level=0'], 'debuggerAddress': '127.0.0.1:51243'}}}}
+Starting new HTTP connection (1): localhost:48227
+http://localhost:48227 "POST /session HTTP/11" 500 0
+Remote response: status=500 | data={"value":{"error":"session not created","message":"session not created: cannot connect to chrome at 127.0.0.1:51243\nfrom chrome not reachable","stacktrace":"#0 0x62672ceb7c7a \u003Cunknown>\n#1 0x62672cb9ac71 \u003Cunknown>\n#2 0x62672cb8533f \u003Cunknown>\n#3 0x62672cbd5895 \u003Cunknown>\n#4 0x62672cbcb9fc \u003Cunknown>\n#5 0x62672cc16c49 \u003Cunknown>\n#6 0x62672cc0a363 \u003Cunknown>\n#7 0x62672cbda247 \u003Cunknown>\n#8 0x62672cbdab9e \u003Cunknown>\n#9 0x62672ce7e24b \u003Cunknown>\n#10 0x62672ce822f1 \u003Cunknown>\n#11 0x62672ce69afe \u003Cunknown>\n#12 0x62672ce82e52 \u003Cunknown>\n#13 0x62672ce4e79f \u003Cunknown>\n#14 0x62672cea7638 \u003Cunknown>\n#15 0x62672cea7810 \u003Cunknown>\n#16 0x62672ceb6dac \u003Cunknown>\n#17 0x74ce8b094ac3 \u003Cunknown>\n"}} | headers=HTTPHeaderDict({'Content-Length': '781', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+webdriver process ended
+gracefully closed browser
+2024-07-16 08:42:12.529402 -- An error occurred: Message: session not created: cannot connect to chrome at 127.0.0.1:51243
+from chrome not reachable
+Stacktrace:
+#0 0x62672ceb7c7a <unknown>
+#1 0x62672cb9ac71 <unknown>
+#2 0x62672cb8533f <unknown>
+#3 0x62672cbd5895 <unknown>
+#4 0x62672cbcb9fc <unknown>
+#5 0x62672cc16c49 <unknown>
+#6 0x62672cc0a363 <unknown>
+#7 0x62672cbda247 <unknown>
+#8 0x62672cbdab9e <unknown>
+#9 0x62672ce7e24b <unknown>
+#10 0x62672ce822f1 <unknown>
+#11 0x62672ce69afe <unknown>
+#12 0x62672ce82e52 <unknown>
+#13 0x62672ce4e79f <unknown>
+#14 0x62672cea7638 <unknown>
+#15 0x62672cea7810 <unknown>
+#16 0x62672ceb6dac <unknown>
+#17 0x74ce8b094ac3 <unknown>
+Traceback (most recent call last):
+  File "/media/nayeem/New Volume/work/PROJECT_WAFID/BACKEND/link_api/wafid/views.py", line 55, in post
+    driver = uc.Chrome(service=service, options=options)
+  File "/media/nayeem/New Volume/work/POM/linktree_api/link_api/myenv/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 466, in __init__
+    super(Chrome, self).__init__(
+  File "/media/nayeem/New Volume/work/POM/linktree_api/link_api/myenv/lib/python3.10/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/media/nayeem/New Volume/work/POM/linktree_api/link_api/myenv/lib/python3.10/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/media/nayeem/New Volume/work/POM/linktree_api/link_api/myenv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "/media/nayeem/New Volume/work/POM/linktree_api/link_api/myenv/lib/python3.10/site-packages/undetected_chromedriver/__init__.py", line 724, in start_session
+    super(selenium.webdriver.chrome.webdriver.WebDriver, self).start_session(
+  File "/media/nayeem/New Volume/work/POM/linktree_api/link_api/myenv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 299, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/media/nayeem/New Volume/work/POM/linktree_api/link_api/myenv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "/media/nayeem/New Volume/work/POM/linktree_api/link_api/myenv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: cannot connect to chrome at 127.0.0.1:51243
+from chrome not reachable
+Stacktrace:
+#0 0x62672ceb7c7a <unknown>
+#1 0x62672cb9ac71 <unknown>
+#2 0x62672cb8533f <unknown>
+#3 0x62672cbd5895 <unknown>
+#4 0x62672cbcb9fc <unknown>
+#5 0x62672cc16c49 <unknown>
+#6 0x62672cc0a363 <unknown>
+#7 0x62672cbda247 <unknown>
+#8 0x62672cbdab9e <unknown>
+#9 0x62672ce7e24b <unknown>
+#10 0x62672ce822f1 <unknown>
+#11 0x62672ce69afe <unknown>
+#12 0x62672ce82e52 <unknown>
+#13 0x62672ce4e79f <unknown>
+#14 0x62672cea7638 <unknown>
+#15 0x62672cea7810 <unknown>
+#16 0x62672ceb6dac <unknown>
+#17 0x74ce8b094ac3 <unknown>
+
+Internal Server Error: /wafid/pay/
+/media/nayeem/New Volume/work/PROJECT_WAFID/BACKEND/link_api/wafid/views.py changed, reloading.
+ensuring close
+ensuring close
+ensuring close
+webdriver process ended
+webdriver process ended
+gracefully closed browser
+webdriver process ended
+Watching for file changes with StatReloader
+Request headers: {'Content-Length': '0', 'Content-Type': 'text/plain', 'Host': '127.0.0.1:8000', 'Connection': 'keep-alive', 'Sec-Ch-Ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"', 'Accept': 'application/json', 'Sec-Ch-Ua-Platform': '"Linux"', 'Sec-Ch-Ua-Mobile': '?0', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'Authorization': 'Token f3ac77a7391b4c593c3dba35f6cd68dbf49e62c1', 'X-Csrftoken': 'wEznEC99fEVghzkLblUXgBJe88M2p0wtuLGoZFwZPEJ30ht75WN8rMZaGsgVZrO6', 'Origin': 'http://127.0.0.1:8000', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://127.0.0.1:8000/api/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'en-US,en;q=0.9', 'Cookie': 'amp_6e403e=EubI5Bq7aHvLzj89rp3XDY.ZXN0aGlldWtAZ21haWwuY29t..1hf4rjei1.1hf4rng42.0.4.4; csrftoken=8hhbvdx0KaYXTSjw4L3lllq6IuE3KBsN; sessionid=uafx030b5cybz2i3ik9cidlmo0zuse4i'}
+2024-07-16 08:51:04.106412 -- Fetching data..
+2024-07-16 08:51:04.106708 -- An error occurred: ArgOptions.add_argument() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "/media/nayeem/New Volume/work/PROJECT_WAFID/BACKEND/link_api/wafid/views.py", line 50, in post
+    options.add_argument('--disable-web-security', '--allow-running-insecure-content')
+TypeError: ArgOptions.add_argument() takes 2 positional arguments but 3 were given
+Internal Server Error: /wafid/pay/
+Request headers: {'Content-Length': '0', 'Content-Type': 'text/plain', 'Host': '127.0.0.1:8000', 'Connection': 'keep-alive', 'Sec-Ch-Ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"', 'Accept': 'application/json', 'Sec-Ch-Ua-Platform': '"Linux"', 'Sec-Ch-Ua-Mobile': '?0', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'Authorization': 'Token f3ac77a7391b4c593c3dba35f6cd68dbf49e62c1', 'X-Csrftoken': 'wEznEC99fEVghzkLblUXgBJe88M2p0wtuLGoZFwZPEJ30ht75WN8rMZaGsgVZrO6', 'Origin': 'http://127.0.0.1:8000', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://127.0.0.1:8000/api/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'en-US,en;q=0.9', 'Cookie': 'amp_6e403e=EubI5Bq7aHvLzj89rp3XDY.ZXN0aGlldWtAZ21haWwuY29t..1hf4rjei1.1hf4rng42.0.4.4; csrftoken=8hhbvdx0KaYXTSjw4L3lllq6IuE3KBsN; sessionid=uafx030b5cybz2i3ik9cidlmo0zuse4i'}
+2024-07-16 08:51:11.298293 -- Fetching data..
+2024-07-16 08:51:11.298442 -- An error occurred: ArgOptions.add_argument() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "/media/nayeem/New Volume/work/PROJECT_WAFID/BACKEND/link_api/wafid/views.py", line 50, in post
+    options.add_argument('--disable-web-security', '--allow-running-insecure-content')
+TypeError: ArgOptions.add_argument() takes 2 positional arguments but 3 were given
+Internal Server Error: /wafid/pay/
+/media/nayeem/New Volume/work/PROJECT_WAFID/BACKEND/link_api/wafid/views.py changed, reloading.
+Watching for file changes with StatReloader
+Request headers: {'Content-Length': '0', 'Content-Type': 'text/plain', 'Host': '127.0.0.1:8000', 'Connection': 'keep-alive', 'Sec-Ch-Ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"', 'Accept': 'application/json', 'Sec-Ch-Ua-Platform': '"Linux"', 'Sec-Ch-Ua-Mobile': '?0', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'Authorization': 'Token f3ac77a7391b4c593c3dba35f6cd68dbf49e62c1', 'X-Csrftoken': 'wEznEC99fEVghzkLblUXgBJe88M2p0wtuLGoZFwZPEJ30ht75WN8rMZaGsgVZrO6', 'Origin': 'http://127.0.0.1:8000', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Dest': 'empty', 'Referer': 'http://127.0.0.1:8000/api/', 'Accept-Encoding': 'gzip, deflate, br, zstd', 'Accept-Language': 'en-US,en;q=0.9', 'Cookie': 'amp_6e403e=EubI5Bq7aHvLzj89rp3XDY.ZXN0aGlldWtAZ21haWwuY29t..1hf4rjei1.1hf4rng42.0.4.4; csrftoken=8hhbvdx0KaYXTSjw4L3lllq6IuE3KBsN; sessionid=uafx030b5cybz2i3ik9cidlmo0zuse4i'}
+2024-07-16 08:51:28.997390 -- Fetching data..
+getting release number from /last-known-good-versions-with-downloads.json
+downloading from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chromedriver-linux64.zip
+unzipping /tmp/tmpwuo7evlg
+patching driver executable /home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver
+found block:
+b'{window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Proxy = window.Proxy;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;window.cdc_adoQpoasnfa76pfcZLmcfl_JSON = window.JSON;}'
+replacing with:
+b'{console.log("undetected chromedriver 1337!")}                                                                                                                                                                                                                                                                                                    '
+patching took us 0.03 seconds
+user-data-dir found in user argument --user-data-dir=../selenium-profile => ../selenium-profile
+checking if /usr/bin/chromium-browser exists and is executable
+checking if /usr/local/go/bin/chrome exists and is executable
+checking if /usr/local/games/google-chrome exists and is executable
+checking if /usr/sbin/google-chrome exists and is executable
+checking if /usr/local/bin/google-chrome-stable exists and is executable
+checking if /usr/local/games/google-chrome-stable exists and is executable
+checking if /usr/local/go/bin/chromium exists and is executable
+checking if /usr/local/sbin/google-chrome exists and is executable
+checking if /media/nayeem/New Volume/work/POM/linktree_api/link_api/myenv/bin/google-chrome-stable exists and is executable
+checking if /usr/local/bin/chromium-browser exists and is executable
+checking if /usr/local/games/chromium exists and is executable
+checking if /usr/local/bin/chrome exists and is executable
+checking if /run/user/1000/fnm_multishells/7697_1721100181352/bin/google-chrome exists and is executable
+checking if /usr/local/bin/google-chrome exists and is executable
+checking if /usr/local/sbin/chromium-browser exists and is executable
+checking if /home/nayeem/.local/share/fnm/google-chrome-stable exists and is executable
+checking if /run/user/1000/fnm_multishells/7697_1721100181352/bin/chromium-browser exists and is executable
+checking if /home/nayeem/.local/share/fnm/google-chrome exists and is executable
+checking if /usr/games/google-chrome exists and is executable
+checking if /home/nayeem/.local/share/fnm/chrome exists and is executable
+checking if /sbin/chrome exists and is executable
+checking if /sbin/chromium exists and is executable
+checking if /usr/sbin/chromium exists and is executable
+checking if /home/nayeem/.local/bin/chromium exists and is executable
+checking if /run/user/1000/fnm_multishells/7697_1721100181352/bin/chrome exists and is executable
+checking if /usr/games/chromium-browser exists and is executable
+checking if /media/nayeem/New Volume/work/POM/linktree_api/link_api/myenv/bin/google-chrome exists and is executable
+checking if /home/nayeem/.pub-cache/bin/google-chrome-stable exists and is executable
+checking if /snap/bin/google-chrome exists and is executable
+checking if /bin/chromium-browser exists and is executable
+checking if /run/user/1000/fnm_multishells/7697_1721100181352/bin/google-chrome-stable exists and is executable
+checking if /media/nayeem/New Volume/work/POM/linktree_api/link_api/myenv/bin/chromium exists and is executable
+checking if /bin/google-chrome-stable exists and is executable
+found! using /bin/google-chrome-stable
+fixed exit_type flag
+Skipping Selenium Manager; path to chrome driver specified in Service class: /home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver
+Started executable: `/home/nayeem/.local/share/undetected_chromedriver/undetected_chromedriver` in a child process with pid: 37457 using 0 to output -3
+POST http://localhost:49975/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'binary': '/bin/google-chrome-stable', 'args': ['--disable-web-security', '--disable-blink-features=AutomationControlled', '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', '--user-data-dir=../selenium-profile', '--remote-debugging-host=127.0.0.1', '--remote-debugging-port=42721', '--lang=en-US', '--no-default-browser-check', '--no-first-run', '--no-sandbox', '--test-type', '--window-size=1920,1080', '--start-maximized', '--no-sandbox', '--log-level=0'], 'debuggerAddress': '127.0.0.1:42721'}}}}
+Starting new HTTP connection (1): localhost:49975
+http://localhost:49975 "POST /session HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"126.0.6478.126","chrome":{"chromedriverVersion":"126.0.6478.126 (d36ace6122e0a59570e258d82441395206d60e1c-refs/branch-heads/6478@{#1591})"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"127.0.0.1:42721"},"pageLoadStrategy":"normal","platformName":"","proxy":{},"setWindowRect":false,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"6a5353edf906b953c586129d9d084696"}} | headers=HTTPHeaderDict({'Content-Length': '762', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/window/maximize {}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/window/maximize HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"height":1053,"width":1850,"x":70,"y":27}} | headers=HTTPHeaderDict({'Content-Length': '52', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:51:41.673586 -- WebDriver started successfully.
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/url {'url': 'https://wafid.com/appointment/r2QweZOZqPLnkb1/pay/'}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/url HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:51:46.154002 -- Navigated to Wafid Pay page
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/element {'using': 'xpath', 'value': '//*[@id="id_card_holder_name"]'}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.18"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/element/f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.18/value {'text': 'ESTHIEUK NAYEEM', 'value': ['E', 'S', 'T', 'H', 'I', 'E', 'U', 'K', ' ', 'N', 'A', 'Y', 'E', 'E', 'M']}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/element/f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.18/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:51:46.275097 -- Name on Card has been typed
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/element {'using': 'xpath', 'value': '//*[@id="id_card_number"]'}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.19"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/element/f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.19/value {'text': '4037400000207531', 'value': ['4', '0', '3', '7', '4', '0', '0', '0', '0', '0', '2', '0', '7', '5', '3', '1']}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/element/f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.19/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:51:46.385775 -- Card Number has been typed
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/element {'using': 'xpath', 'value': '//*[@id="id_expiry_date"]'}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.20"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/element/f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.20/value {'text': '07/26', 'value': ['0', '7', '/', '2', '6']}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/element/f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.20/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:51:46.463157 -- Expiry Date has been typed
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/element {'using': 'xpath', 'value': '//*[@id="id_card_security_code"]'}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.21"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/element/f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.21/value {'text': '345', 'value': ['3', '4', '5']}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/element/f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.21/value HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:51:46.531606 -- CVV/CVC has been typed
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/element {'using': 'xpath', 'value': '//*[@id="pay-form"]/button'}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/element HTTP/11" 200 0
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.32"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/element/f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.32/click {}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/element/f.1D3D649618569458C9733837C9C4314E.d.DB2CD04ED9A7CE3D1C071859B35C53C4.e.32/click HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+2024-07-16 08:52:01.311966 -- Pay Button has been clicked
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/execute/sync {'script': "window.open('https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox', '_blank');", 'args': []}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/execute/sync HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+GET http://localhost:49975/session/6a5353edf906b953c586129d9d084696/window/handles {}
+http://localhost:49975 "GET /session/6a5353edf906b953c586129d9d084696/window/handles HTTP/11" 200 0
+Remote response: status=200 | data={"value":["1D3D649618569458C9733837C9C4314E","B6093A1AEF2FB8AA5E9742B1D994FBBF"]} | headers=HTTPHeaderDict({'Content-Length': '81', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+GET http://localhost:49975/session/6a5353edf906b953c586129d9d084696/window/handles {}
+http://localhost:49975 "GET /session/6a5353edf906b953c586129d9d084696/window/handles HTTP/11" 200 0
+Remote response: status=200 | data={"value":["1D3D649618569458C9733837C9C4314E","B6093A1AEF2FB8AA5E9742B1D994FBBF"]} | headers=HTTPHeaderDict({'Content-Length': '81', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/window {'handle': 'B6093A1AEF2FB8AA5E9742B1D994FBBF'}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/window HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+DELETE http://localhost:49975/session/6a5353edf906b953c586129d9d084696/window {}
+http://localhost:49975 "DELETE /session/6a5353edf906b953c586129d9d084696/window HTTP/11" 200 0
+Remote response: status=200 | data={"value":["1D3D649618569458C9733837C9C4314E"]} | headers=HTTPHeaderDict({'Content-Length': '46', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+GET http://localhost:49975/session/6a5353edf906b953c586129d9d084696/window/handles {}
+http://localhost:49975 "GET /session/6a5353edf906b953c586129d9d084696/window/handles HTTP/11" 200 0
+Remote response: status=200 | data={"value":["1D3D649618569458C9733837C9C4314E"]} | headers=HTTPHeaderDict({'Content-Length': '46', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
+POST http://localhost:49975/session/6a5353edf906b953c586129d9d084696/window {'handle': '1D3D649618569458C9733837C9C4314E'}
+http://localhost:49975 "POST /session/6a5353edf906b953c586129d9d084696/window HTTP/11" 200 0
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Finished Request
